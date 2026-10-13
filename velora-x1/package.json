@@ -1,0 +1,1 @@
+{"name":"velora-x1","version":"1.0.0","private":true,"type":"module","engines":{"node":">=20"},"scripts":{"start":"node src/index.js","deploy:commands":"node src/deploy-commands.js"},"dependencies":{"better-sqlite3":"^11.8.1","connect-sqlite3":"^0.9.16","discord.js":"^14.19.3","dotenv":"^16.4.7","ejs":"^3.1.10","express":"^4.21.2","express-session":"^1.18.1","helmet":"^8.0.0"}}

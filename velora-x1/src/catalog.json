@@ -1,0 +1,1256 @@
+{
+  "slash": [
+    {
+      "name": "help",
+      "description": "Show categorized command help",
+      "category": "Utility"
+    },
+    {
+      "name": "ping",
+      "description": "Check bot latency",
+      "category": "Utility"
+    },
+    {
+      "name": "about",
+      "description": "About Velora X1",
+      "category": "Utility"
+    },
+    {
+      "name": "serverinfo",
+      "description": "Show server information",
+      "category": "Utility"
+    },
+    {
+      "name": "userinfo",
+      "description": "Show a member profile",
+      "category": "Utility"
+    },
+    {
+      "name": "avatar",
+      "description": "Show a user avatar",
+      "category": "Utility"
+    },
+    {
+      "name": "roleinfo",
+      "description": "roleinfo command for your server.",
+      "category": "Community"
+    },
+    {
+      "name": "channelinfo",
+      "description": "channelinfo command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "botinfo",
+      "description": "botinfo command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "invite",
+      "description": "invite command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "warn",
+      "description": "Warn a member and DM the reason",
+      "category": "Moderation"
+    },
+    {
+      "name": "warnings",
+      "description": "View a member warning history",
+      "category": "Moderation"
+    },
+    {
+      "name": "clearwarnings",
+      "description": "Clear a member warning history",
+      "category": "Utility"
+    },
+    {
+      "name": "timeout",
+      "description": "Timeout a member",
+      "category": "Moderation"
+    },
+    {
+      "name": "untimeout",
+      "description": "Remove a timeout",
+      "category": "Utility"
+    },
+    {
+      "name": "kick",
+      "description": "Kick a member",
+      "category": "Moderation"
+    },
+    {
+      "name": "ban",
+      "description": "Ban a member",
+      "category": "Moderation"
+    },
+    {
+      "name": "unban",
+      "description": "Unban a user by ID",
+      "category": "Utility"
+    },
+    {
+      "name": "purge",
+      "description": "Delete recent messages",
+      "category": "Moderation"
+    },
+    {
+      "name": "slowmode",
+      "description": "Set channel slowmode",
+      "category": "Utility"
+    },
+    {
+      "name": "lock",
+      "description": "Lock this channel",
+      "category": "Moderation"
+    },
+    {
+      "name": "unlock",
+      "description": "Unlock this channel",
+      "category": "Moderation"
+    },
+    {
+      "name": "nickname",
+      "description": "nickname command for your server.",
+      "category": "Moderation"
+    },
+    {
+      "name": "softban",
+      "description": "softban command for your server.",
+      "category": "Moderation"
+    },
+    {
+      "name": "modstats",
+      "description": "modstats command for your server.",
+      "category": "Moderation"
+    },
+    {
+      "name": "case",
+      "description": "case command for your server.",
+      "category": "Moderation"
+    },
+    {
+      "name": "note",
+      "description": "note command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "report",
+      "description": "report command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "poll",
+      "description": "Create a reaction poll",
+      "category": "Fun"
+    },
+    {
+      "name": "8ball",
+      "description": "8ball command for your server.",
+      "category": "Fun"
+    },
+    {
+      "name": "coinflip",
+      "description": "Flip a coin",
+      "category": "Fun"
+    },
+    {
+      "name": "roll",
+      "description": "Roll a number",
+      "category": "Fun"
+    },
+    {
+      "name": "choose",
+      "description": "Choose from options",
+      "category": "Fun"
+    },
+    {
+      "name": "rps",
+      "description": "rps command for your server.",
+      "category": "Fun"
+    },
+    {
+      "name": "joke",
+      "description": "joke command for your server.",
+      "category": "Fun"
+    },
+    {
+      "name": "quote",
+      "description": "quote command for your server.",
+      "category": "Fun"
+    },
+    {
+      "name": "ship",
+      "description": "ship command for your server.",
+      "category": "Fun"
+    },
+    {
+      "name": "rate",
+      "description": "rate command for your server.",
+      "category": "Fun"
+    },
+    {
+      "name": "remind",
+      "description": "remind command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "calc",
+      "description": "calc command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "time",
+      "description": "time command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "embed",
+      "description": "embed command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "say",
+      "description": "say command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "announce",
+      "description": "announce command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "suggest",
+      "description": "suggest command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "suggestions",
+      "description": "suggestions command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "setprefix",
+      "description": "Set the server prefix",
+      "category": "Configuration"
+    },
+    {
+      "name": "setlogs",
+      "description": "Set the main log channel",
+      "category": "Configuration"
+    },
+    {
+      "name": "setwelcome",
+      "description": "Set the welcome channel",
+      "category": "Configuration"
+    },
+    {
+      "name": "setballdex",
+      "description": "Set the BallDex watcher channel",
+      "category": "Configuration"
+    },
+    {
+      "name": "settings",
+      "description": "settings command for your server.",
+      "category": "Configuration"
+    },
+    {
+      "name": "automod",
+      "description": "automod command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "antiraid",
+      "description": "Toggle join-spike alerts",
+      "category": "Security"
+    },
+    {
+      "name": "antinuke",
+      "description": "Toggle anti-nuke monitoring",
+      "category": "Security"
+    },
+    {
+      "name": "securitycheck",
+      "description": "Check bot permissions",
+      "category": "Security"
+    },
+    {
+      "name": "lockdown",
+      "description": "lockdown command for your server.",
+      "category": "Moderation"
+    },
+    {
+      "name": "rolecreate",
+      "description": "rolecreate command for your server.",
+      "category": "Community"
+    },
+    {
+      "name": "rolecolor",
+      "description": "rolecolor command for your server.",
+      "category": "Community"
+    },
+    {
+      "name": "roledelete",
+      "description": "roledelete command for your server.",
+      "category": "Community"
+    },
+    {
+      "name": "roleadd",
+      "description": "roleadd command for your server.",
+      "category": "Community"
+    },
+    {
+      "name": "roleremove",
+      "description": "roleremove command for your server.",
+      "category": "Community"
+    },
+    {
+      "name": "builder",
+      "description": "Open server role builder",
+      "category": "Community"
+    },
+    {
+      "name": "regionroles",
+      "description": "regionroles command for your server.",
+      "category": "Community"
+    },
+    {
+      "name": "genderroles",
+      "description": "genderroles command for your server.",
+      "category": "Community"
+    },
+    {
+      "name": "ageroles",
+      "description": "ageroles command for your server.",
+      "category": "Community"
+    },
+    {
+      "name": "colorroles",
+      "description": "colorroles command for your server.",
+      "category": "Community"
+    },
+    {
+      "name": "welcome-test",
+      "description": "welcome test command for your server.",
+      "category": "Configuration"
+    },
+    {
+      "name": "membercount",
+      "description": "membercount command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "emoji-list",
+      "description": "emoji list command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "boosts",
+      "description": "boosts command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "permissions",
+      "description": "permissions command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "firstmessage",
+      "description": "firstmessage command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "inviteinfo",
+      "description": "inviteinfo command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "uptime",
+      "description": "uptime command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "support",
+      "description": "support command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "giveaway",
+      "description": "giveaway command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "giveaway-end",
+      "description": "giveaway end command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "ticket-panel",
+      "description": "ticket panel command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "ticket-close",
+      "description": "ticket close command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "starboard",
+      "description": "starboard command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "afk",
+      "description": "afk command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "remind-list",
+      "description": "remind list command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "purge-user",
+      "description": "purge user command for your server.",
+      "category": "Moderation"
+    },
+    {
+      "name": "dehoist",
+      "description": "dehoist command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "audit",
+      "description": "audit command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "balldex-test",
+      "description": "balldex test command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "logtest",
+      "description": "logtest command for your server.",
+      "category": "Configuration"
+    },
+    {
+      "name": "welcome-preview",
+      "description": "welcome preview command for your server.",
+      "category": "Configuration"
+    },
+    {
+      "name": "serverbuilder",
+      "description": "serverbuilder command for your server.",
+      "category": "Community"
+    },
+    {
+      "name": "consent",
+      "description": "consent command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "privacy",
+      "description": "Explain DM privacy limits",
+      "category": "Utility"
+    },
+    {
+      "name": "dm-consent",
+      "description": "dm consent command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "dm-optout",
+      "description": "dm optout command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "rules",
+      "description": "rules command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "verify",
+      "description": "verify command for your server.",
+      "category": "Utility"
+    },
+    {
+      "name": "autorole",
+      "description": "autorole command for your server.",
+      "category": "Configuration"
+    },
+    {
+      "name": "custom-command",
+      "description": "custom command command for your server.",
+      "category": "Configuration"
+    },
+    {
+      "name": "export-settings",
+      "description": "export settings command for your server.",
+      "category": "Configuration"
+    },
+    {
+      "name": "diagnose",
+      "description": "diagnose command for your server.",
+      "category": "Security"
+    },
+    {
+      "name": "help-order",
+      "description": "help order command for your server.",
+      "category": "Configuration"
+    }
+  ],
+  "prefix": [
+    {
+      "name": "help",
+      "description": "Show categorized command help",
+      "category": "Utility"
+    },
+    {
+      "name": "ping",
+      "description": "Check bot latency",
+      "category": "Utility"
+    },
+    {
+      "name": "about",
+      "description": "About Velora X1",
+      "category": "Utility"
+    },
+    {
+      "name": "serverinfo",
+      "description": "Show server information",
+      "category": "Utility"
+    },
+    {
+      "name": "userinfo",
+      "description": "Show a member profile",
+      "category": "Utility"
+    },
+    {
+      "name": "avatar",
+      "description": "Show a user avatar",
+      "category": "Utility"
+    },
+    {
+      "name": "roleinfo",
+      "description": "roleinfo prefix command for server utility and community management.",
+      "category": "Community"
+    },
+    {
+      "name": "channelinfo",
+      "description": "channelinfo prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "botinfo",
+      "description": "botinfo prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "invite",
+      "description": "invite prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "warn",
+      "description": "Warn a member and DM the reason",
+      "category": "Moderation"
+    },
+    {
+      "name": "warnings",
+      "description": "View a member warning history",
+      "category": "Moderation"
+    },
+    {
+      "name": "clearwarnings",
+      "description": "Clear a member warning history",
+      "category": "Utility"
+    },
+    {
+      "name": "timeout",
+      "description": "Timeout a member",
+      "category": "Moderation"
+    },
+    {
+      "name": "untimeout",
+      "description": "Remove a timeout",
+      "category": "Utility"
+    },
+    {
+      "name": "kick",
+      "description": "Kick a member",
+      "category": "Moderation"
+    },
+    {
+      "name": "ban",
+      "description": "Ban a member",
+      "category": "Moderation"
+    },
+    {
+      "name": "unban",
+      "description": "Unban a user by ID",
+      "category": "Utility"
+    },
+    {
+      "name": "purge",
+      "description": "Delete recent messages",
+      "category": "Moderation"
+    },
+    {
+      "name": "slowmode",
+      "description": "Set channel slowmode",
+      "category": "Utility"
+    },
+    {
+      "name": "lock",
+      "description": "Lock this channel",
+      "category": "Moderation"
+    },
+    {
+      "name": "unlock",
+      "description": "Unlock this channel",
+      "category": "Moderation"
+    },
+    {
+      "name": "nickname",
+      "description": "nickname prefix command for server utility and community management.",
+      "category": "Moderation"
+    },
+    {
+      "name": "softban",
+      "description": "softban prefix command for server utility and community management.",
+      "category": "Moderation"
+    },
+    {
+      "name": "modstats",
+      "description": "modstats prefix command for server utility and community management.",
+      "category": "Moderation"
+    },
+    {
+      "name": "case",
+      "description": "case prefix command for server utility and community management.",
+      "category": "Moderation"
+    },
+    {
+      "name": "note",
+      "description": "note prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "report",
+      "description": "report prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "poll",
+      "description": "Create a reaction poll",
+      "category": "Fun"
+    },
+    {
+      "name": "8ball",
+      "description": "8ball prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "coinflip",
+      "description": "Flip a coin",
+      "category": "Fun"
+    },
+    {
+      "name": "roll",
+      "description": "Roll a number",
+      "category": "Fun"
+    },
+    {
+      "name": "choose",
+      "description": "Choose from options",
+      "category": "Fun"
+    },
+    {
+      "name": "rps",
+      "description": "rps prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "joke",
+      "description": "joke prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "quote",
+      "description": "quote prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "ship",
+      "description": "ship prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "rate",
+      "description": "rate prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "remind",
+      "description": "remind prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "calc",
+      "description": "calc prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "time",
+      "description": "time prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "embed",
+      "description": "embed prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "say",
+      "description": "say prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "announce",
+      "description": "announce prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "suggest",
+      "description": "suggest prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "suggestions",
+      "description": "suggestions prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "setprefix",
+      "description": "Set the server prefix",
+      "category": "Configuration"
+    },
+    {
+      "name": "setlogs",
+      "description": "Set the main log channel",
+      "category": "Configuration"
+    },
+    {
+      "name": "setwelcome",
+      "description": "Set the welcome channel",
+      "category": "Configuration"
+    },
+    {
+      "name": "setballdex",
+      "description": "Set the BallDex watcher channel",
+      "category": "Configuration"
+    },
+    {
+      "name": "settings",
+      "description": "settings prefix command for server utility and community management.",
+      "category": "Configuration"
+    },
+    {
+      "name": "automod",
+      "description": "automod prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "antiraid",
+      "description": "Toggle join-spike alerts",
+      "category": "Security"
+    },
+    {
+      "name": "antinuke",
+      "description": "Toggle anti-nuke monitoring",
+      "category": "Security"
+    },
+    {
+      "name": "securitycheck",
+      "description": "Check bot permissions",
+      "category": "Security"
+    },
+    {
+      "name": "lockdown",
+      "description": "lockdown prefix command for server utility and community management.",
+      "category": "Moderation"
+    },
+    {
+      "name": "rolecreate",
+      "description": "rolecreate prefix command for server utility and community management.",
+      "category": "Community"
+    },
+    {
+      "name": "rolecolor",
+      "description": "rolecolor prefix command for server utility and community management.",
+      "category": "Community"
+    },
+    {
+      "name": "roledelete",
+      "description": "roledelete prefix command for server utility and community management.",
+      "category": "Community"
+    },
+    {
+      "name": "roleadd",
+      "description": "roleadd prefix command for server utility and community management.",
+      "category": "Community"
+    },
+    {
+      "name": "roleremove",
+      "description": "roleremove prefix command for server utility and community management.",
+      "category": "Community"
+    },
+    {
+      "name": "builder",
+      "description": "Open server role builder",
+      "category": "Community"
+    },
+    {
+      "name": "regionroles",
+      "description": "regionroles prefix command for server utility and community management.",
+      "category": "Community"
+    },
+    {
+      "name": "genderroles",
+      "description": "genderroles prefix command for server utility and community management.",
+      "category": "Community"
+    },
+    {
+      "name": "ageroles",
+      "description": "ageroles prefix command for server utility and community management.",
+      "category": "Community"
+    },
+    {
+      "name": "colorroles",
+      "description": "colorroles prefix command for server utility and community management.",
+      "category": "Community"
+    },
+    {
+      "name": "membercount",
+      "description": "membercount prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "boosts",
+      "description": "boosts prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "permissions",
+      "description": "permissions prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "emoji-list",
+      "description": "emoji list prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "uptime",
+      "description": "uptime prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "support",
+      "description": "support prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "giveaway",
+      "description": "giveaway prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "ticket-panel",
+      "description": "ticket panel prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "ticket-close",
+      "description": "ticket close prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "afk",
+      "description": "afk prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "purge-user",
+      "description": "purge user prefix command for server utility and community management.",
+      "category": "Moderation"
+    },
+    {
+      "name": "dehoist",
+      "description": "dehoist prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "audit",
+      "description": "audit prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "balldex-test",
+      "description": "balldex test prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "logtest",
+      "description": "logtest prefix command for server utility and community management.",
+      "category": "Configuration"
+    },
+    {
+      "name": "welcome-preview",
+      "description": "welcome preview prefix command for server utility and community management.",
+      "category": "Configuration"
+    },
+    {
+      "name": "serverbuilder",
+      "description": "serverbuilder prefix command for server utility and community management.",
+      "category": "Community"
+    },
+    {
+      "name": "consent",
+      "description": "consent prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "privacy",
+      "description": "Explain DM privacy limits",
+      "category": "Utility"
+    },
+    {
+      "name": "dm-consent",
+      "description": "dm consent prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "dm-optout",
+      "description": "dm optout prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "rules",
+      "description": "rules prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "verify",
+      "description": "verify prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "autorole",
+      "description": "autorole prefix command for server utility and community management.",
+      "category": "Configuration"
+    },
+    {
+      "name": "diagnose",
+      "description": "diagnose prefix command for server utility and community management.",
+      "category": "Security"
+    },
+    {
+      "name": "botstatus",
+      "description": "botstatus prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "calc-percent",
+      "description": "calc percent prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "random-number",
+      "description": "random number prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "random-choice",
+      "description": "random choice prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "reverse",
+      "description": "reverse prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "upper",
+      "description": "upper prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "lower",
+      "description": "lower prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "clap",
+      "description": "clap prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "hug",
+      "description": "hug prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "pat",
+      "description": "pat prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "slap",
+      "description": "slap prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "highfive",
+      "description": "highfive prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "meme",
+      "description": "meme prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "fact",
+      "description": "fact prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "cat",
+      "description": "cat prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "dog",
+      "description": "dog prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "fox",
+      "description": "fox prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "coffee",
+      "description": "coffee prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "tea",
+      "description": "tea prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "compatibility",
+      "description": "compatibility prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "achievement",
+      "description": "achievement prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "ascii",
+      "description": "ascii prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "base64-encode",
+      "description": "base64 encode prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "base64-decode",
+      "description": "base64 decode prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "hex",
+      "description": "hex prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "binary",
+      "description": "binary prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "userinfo-id",
+      "description": "userinfo id prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "rolelist",
+      "description": "rolelist prefix command for server utility and community management.",
+      "category": "Community"
+    },
+    {
+      "name": "channellist",
+      "description": "channellist prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "servericon",
+      "description": "servericon prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "serverbanner",
+      "description": "serverbanner prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "memberavatar",
+      "description": "memberavatar prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "permissions-check",
+      "description": "permissions check prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "joined-at",
+      "description": "joined at prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "created-at",
+      "description": "created at prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "timestamp",
+      "description": "timestamp prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "snowflake",
+      "description": "snowflake prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "poll-create",
+      "description": "poll create prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "poll-close",
+      "description": "poll close prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "quote-add",
+      "description": "quote add prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "quote-random",
+      "description": "quote random prefix command for server utility and community management.",
+      "category": "Fun"
+    },
+    {
+      "name": "reminder",
+      "description": "reminder prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "reminder-list",
+      "description": "reminder list prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "reminder-cancel",
+      "description": "reminder cancel prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "countdown",
+      "description": "countdown prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "topic",
+      "description": "topic prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "settopic",
+      "description": "settopic prefix command for server utility and community management.",
+      "category": "Configuration"
+    },
+    {
+      "name": "announce-embed",
+      "description": "announce embed prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "embed-color",
+      "description": "embed color prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "embed-footer",
+      "description": "embed footer prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "purge-bots",
+      "description": "purge bots prefix command for server utility and community management.",
+      "category": "Moderation"
+    },
+    {
+      "name": "purge-links",
+      "description": "purge links prefix command for server utility and community management.",
+      "category": "Moderation"
+    },
+    {
+      "name": "purge-images",
+      "description": "purge images prefix command for server utility and community management.",
+      "category": "Moderation"
+    },
+    {
+      "name": "purge-attachments",
+      "description": "purge attachments prefix command for server utility and community management.",
+      "category": "Moderation"
+    },
+    {
+      "name": "purge-embeds",
+      "description": "purge embeds prefix command for server utility and community management.",
+      "category": "Moderation"
+    },
+    {
+      "name": "slowmode-off",
+      "description": "slowmode off prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "lockdown-off",
+      "description": "lockdown off prefix command for server utility and community management.",
+      "category": "Moderation"
+    },
+    {
+      "name": "voiceinfo",
+      "description": "voiceinfo prefix command for server utility and community management.",
+      "category": "Utility"
+    },
+    {
+      "name": "voicekick",
+      "description": "voicekick prefix command for server utility and community management.",
+      "category": "Utility"
+    }
+  ]
+}

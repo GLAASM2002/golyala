@@ -1,0 +1,24 @@
+{
+  "name": "velora-x1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Velora X1 Discord bot and server dashboard",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node --check src/index.js && node --check src/dashboard.js && node --check src/commands/index.js && node --check src/db.js && node --check src/services/ballDex.js && node --check public/dashboard.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "connect-sqlite3": "^0.9.16",
+    "discord.js": "^14.19.3",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-session": "^1.18.1",
+    "helmet": "^8.0.0",
+    "better-sqlite3": "^11.8.1"
+  }
+}
